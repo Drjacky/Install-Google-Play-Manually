@@ -1,7 +1,10 @@
 # Install-Google-Play-Manually
 How to install google play manually on any android devices
 
-Add below lines (just betweens ByMe! comments) after about lines 5634:
+Add below lines (just betweens ByMe! comments) after about lines 5634, in PackageManagerService.java at
+```javascript
+/android/see-s805-dvb-s2-t2/frameworks/base/services/java/com/android/server/pm:
+```
 
 ```javascript
 private boolean grantSignaturePermission(String perm, PackageParser.Package pkg,
