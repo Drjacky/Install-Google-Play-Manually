@@ -82,6 +82,19 @@ adb shell pm grant com.google.android.gms android.permission.WRITE_SECURE_SETTIN
 //adb shell pm grant com.google.android.gms android.permission.MANAGE_USERS
 ```
 
+Or
+
+Add these to your init file:
+
+#ByMe
+pm grant com.google.android.gms android.permission.INTERACT_ACROSS_USERS;
+pm grant com.google.android.gms android.permission.READ_LOGS;
+pm grant com.google.android.gms android.permission.WRITE_SECURE_SETTINGS;
+pm grant com.google.android.gms android.permission.WRITE_SECURE_SETTINGS;
+#pm grant com.google.android.gms android.permission.ACCESS_DOWNLOAD_MANAGER;
+#pm grant com.google.android.gms android.permission.CHANGE_CONFIGURATION;
+###
+
 Then run google play store application; not anything else.
 Login,
 Enjoy!
