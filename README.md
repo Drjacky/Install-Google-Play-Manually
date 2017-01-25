@@ -108,7 +108,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_SRC_FILES := apkname.apk
 include $(BUILD_PREBUILT)
 ```
-This snipped code, copy APK to ```javascript /system/priv-app ```, to be eligible for system permissions.
+This snipped code, copy APK to ``` /system/priv-app ```, to be eligible for system permissions.
 For mor information: http://stackoverflow.com/questions/40397443/how-to-add-extra-permission-to-a-prebuilt-application-no-source-code-in-aosp
 
 
