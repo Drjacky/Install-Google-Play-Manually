@@ -1,6 +1,8 @@
 # Install-Google-Play-Manually
 How to install google play manually on any android devices
 
+# You can read this article on [Medium](https://medium.com/@drjacky/how-to-install-google-play-store-manually-on-aosp-285a18c406db) too.
+
 Add below lines (just betweens ByMe! comments) after about lines 5634, in PackageManagerService.java at
 ```javascript
 /android/sourcecode/frameworks/base/services/java/com/android/server/pm:
