@@ -1,4 +1,4 @@
-# Install-Google-Play-Manually
+# Install Google Play Manually
 How to install google play manually on any android devices
 
 # You can read this article on [Medium](https://medium.com/@drjacky/how-to-install-google-play-store-manually-on-aosp-285a18c406db) too.
